@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safety SOP Audio Library</title>
+<meta name="description" content="Listen to workplace safety procedures.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A0%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#library">Skip to procedures</a>
+<header>
+  <div class="wrap bar">
+    <strong class="brand" id="brand">Safety SOPs</strong>
+    <nav aria-label="Main">
+      <a href="#library">Library</a>
+      <a href="#emergency">Emergency</a>
+      <a href="#help">How to use</a>
+    </nav>
+  </div>
+  <div class="wrap hero">
+    <h1>Safety SOP Audio Library</h1>
+    <p>Listen to each procedure before you start work. Tick the box when you finish.</p>
+    <div class="progress" aria-live="polite">
+      <div class="track"><div class="fill" id="fill"></div></div>
+      <span id="progressText"></span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section id="library" aria-labelledby="libh">
+    <h2 id="libh" class="sr">Procedures</h2>
+    <div class="tools">
+      <input type="search" id="q" placeholder="Search procedures" aria-label="Search procedures">
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <p class="status" id="status" aria-live="polite"></p>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <section id="emergency" class="panel">
+    <h2>In an emergency</h2>
+    <p>Stop work, move to a safe place, and call for help.</p>
+    <dl id="contacts"></dl>
+  </section>
+
+  <section id="help" class="panel">
+    <h2>How to use this site</h2>
+    <details><summary>How do I listen to a procedure?</summary><p>Press play on the player. Only one procedure plays at a time. Audio loads when you press play, so the first seconds may take a moment on a slow connection.</p></details>
+    <details><summary>What does the checkbox do?</summary><p>It marks a procedure as listened on this device only. It is not sent to anyone and clears if you clear your browser data.</p></details>
+    <details><summary>I can't listen right now. What can I do?</summary><p>Open "Read transcript" under a procedure, where one is provided, or ask your supervisor for the written copy.</p></details>
+  </section>
+</div>
+
+<footer><div class="wrap"><span id="foot"></span></div></footer>
+
+<script src="sops.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
