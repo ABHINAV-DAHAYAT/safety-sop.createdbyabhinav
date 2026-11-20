@@ -8,8 +8,7 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">"
 function header(){
   $("brand").textContent = SITE.company;
   document.title = SITE.company + " | Operational Safety Broadcast";
-  $("foot").textContent = SITE.company + " safety procedures. Contact your supervisor if a recording is missing or out of date.";
-  $("contacts").innerHTML = SITE.contacts.map(c => `<dt>${esc(c.label)}</dt><dd>${esc(c.value)}</dd>`).join("");
+  $("foot").textContent = SITE.company + " safety procedures. This Page Created by Abhinav Dahayat(GT)";
 }
 function buildChips(){
   const cats = ["All", ...new Set(SOPS.map(s => s.category))];

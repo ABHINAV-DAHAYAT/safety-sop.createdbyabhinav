@@ -1,6 +1,6 @@
 /* ===== EDIT THIS FILE: your company details and SOP list ===== */
 const SITE = {
-  company: " Raipur Distribution Centre ",
+  company: " West Zone DC ",
   contacts: [  
         { label: " This page created by Abhinav Dahayat", value: "9340835726/ dabhinav@godrej.com" },
     { label: "Emergency services", value: "Mr.Ramesh" },
@@ -13,8 +13,8 @@ const SITE = {
    title: shown on page | file: path in audio/ | category: filter group
    transcript: optional written text ("" if none) */
 const SOPS = [
-   { title: "Cash Stock Liquidation SOP", file: "audio/safe-loading1.mp3", category: "Warehouse", transcript: "" },
-   { title: "E Commerce Customer Dispatch SOP", file: "audio/safe-loading2.mp3", category: "Warehouse", transcript: "" },
+   { title: "Non-Routine Activities Safety Training(नॉन-रूटीन गतिविधियों का सुरक्षा प्रशिक्षण)", file: "audio/safe-loading1.mp3", category: "Warehouse", transcript: "" },
+   { title: "Pest Control Procedure(पेस्ट कंट्रोल (कीट नियंत्रण) प्रक्रिया)", file: "audio/safe-loading2.mp3", category: "Warehouse", transcript: "" },
    { title: "E Commerce Dispatch SOP & Safety Training", file: "audio/safe-loading3.mp3", category: "Warehouse", transcript: "" },
    { title: "E Waste Handling & Storage Safety", file: "audio/safe-loading4.mp3", category: "Warehouse", transcript: "" },
    { title: "Earthing Safety & Preventive Controls SOP", file: "audio/safe-loading5.mp3", category: "Warehouse", transcript: "" },
