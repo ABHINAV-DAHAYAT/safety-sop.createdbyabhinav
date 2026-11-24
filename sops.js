@@ -1,57 +1,74 @@
 /* ===== EDIT THIS FILE: your company details and SOP list ===== */
 const SITE = {
-  company: " West Zone DC ",
-  contacts: [  
-        { label: " This page created by Abhinav Dahayat", value: "9340835726/ dabhinav@godrej.com" },
+  company: "West Zone DC",
+  contacts: [
+    { label: "This page created by Abhinav Dahayat", value: "9340835726/ dabhinav@godrej.com" },
     { label: "Emergency services", value: "Mr.Ramesh" },
-    { label: "Safety officer",     value: " Mr.Ramesh /99438806"},
+    { label: "Safety officer",     value: "Mr.Ramesh /99438806" },
     { label: "Security desk",      value: "Mr. Ankit / 9569961957" }
-  ] 
+  ]
 };
 
-/* One line per MP3.
-   title: shown on page | file: path in audio/ | category: filter group
-   transcript: optional written text ("" if none) */
+/* One line per MP3, in the order shown on the page.
+   title: shown on page | file: path in audio/ | category: tab name
+   transcript: optional written text ("" if none)
+   Each new category name creates a new tab automatically. */
 const SOPS = [
-   { title: "Non-Routine Activities Safety Training(नॉन-रूटीन गतिविधियों का सुरक्षा प्रशिक्षण)", file: "audio/safe-loading1.mp3", category: "Warehouse", transcript: "" },
-   { title: "Pest Control Procedure(पेस्ट कंट्रोल (कीट नियंत्रण) प्रक्रिया)", file: "audio/safe-loading2.mp3", category: "Warehouse", transcript: "" },
-   { title: "Material Handling in Racks(रैक्स में मटेरियल हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading3.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Cutting of Steel Strapping and Seals(स्टील स्ट्रैप और सील काटने की सुरक्षित प्रक्रिया)", file: "audio/safe-loading4.mp3", category: "Warehouse", transcript: "" },
-   { title: "Vehicle Reporting Procedure(वाहन रिपोर्टिंग की प्रक्रिया)", file: "audio/safe-loading6.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Use of Weighing Scale(वेइंग स्केल के सुरक्षित उपयोग की प्रक्रिया)", file: "audio/safe-loading7.mp3", category: "Warehouse", transcript: "" },
-   { title: "Packing of Spares Procedure(स्पेयर्स की पैकिंग की प्रक्रिया)", file: "audio/safe-loading8.mp3", category: "Warehouse", transcript: "" },
-   { title: "Non-Inventory Waste Management(नॉन-इन्वेंटरी वेस्ट प्रबंधन की प्रक्रिया)", file: "audio/safe-loading9.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Vehicle Placement at Dock(डॉक पर वाहन की सुरक्षित प्लेसमेंट)", file: "audio/safe-loading10.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Operation of Stackers(स्टैकर के सुरक्षित संचालन की प्रक्रिया)", file: "audio/safe-loading11.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Use of Stacker at Height(ऊंचाई पर स्टैकर के सुरक्षित उपयोग की प्रक्रिया))", file: "audio/safe-loading12.mp3", category: "Warehouse", transcript: "" },
-   { title: "Two-to-Three Tier Stacking of Refrigerators(रेफ्रिजरेटर की 2 से 3 टियर स्टैकिंग की प्रक्रिया)", file: "audio/safe-loading13.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Handling of Damaged Parts(क्षतिग्रस्त पुर्जों की सुरक्षित हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading14.mp3", category: "Warehouse", transcript: "" },
-   { title: "Material Dispatch from Warehouse(वेयरहाउस से माल भेजने की प्रक्रिया)", file: "audio/safe-loading15.mp3", category: "Warehouse", transcript: "" },
 
-   { title: "Safe Handling of Fragile Materials (Glass, Granite, Crockery)(नाज़ुक सामान (कांच, ग्रेनाइट, क्रॉकरी) की सुरक्षित हैंडलिंग)", file: "audio/safe-loading16.mp3", category: "Warehouse", transcript: "" },
-   { title: "Cylinder Storage and Handling Procedure(सिलेंडर के भंडारण और हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading17.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Loading of Heavy Material(भारी सामान की सुरक्षित लोडिंग की प्रक्रिया)", file: "audio/safe-loading18.mp3", category: "Warehouse", transcript: "" },
-   { title: "Housekeeping Procedure(हाउसकीपिंग (साफ-सफाई) की प्रक्रिया)", file: "audio/safe-loading19.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Dispatch of Loaded Vehicles(लोडेड वाहन की सुरक्षित रवानगी की प्रक्रिया)", file: "audio/safe-loading20.mp3", category: "Warehouse", transcript: "" },
-    { title: "Safe Charging of MHE (Material Handling Equipment)((वेयरहाउस मशीनों) की सुरक्षित चार्जिंग की प्रक्रिया)", file: "audio/safe-loading21.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Operation of Rolling Shutters(रोलिंग शटर के सुरक्षित संचालन की प्रक्रिया)", file: "audio/safe-loading22.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Loading and Unloading at Second Floor Racks(सेकंड फ्लोर रैक पर लोडिंग और अनलोडिंग की सुरक्षित प्रक्रिया)", file: "audio/safe-loading23.mp3", category: "Warehouse", transcript: "" },
-   { title: "Cash Stock Liquidation Procedure(कैश स्टॉक लिक्विडेशन की प्रक्रिया)", file: "audio/safe-loading24.mp3", category: "Warehouse", transcript: "" },
-   { title: "E-Commerce Dispatch Procedure(ई-कॉमर्स ग्राहकों को माल भेजने की प्रक्रिया)", file: "audio/safe-loading25.mp3", category: "Warehouse", transcript: "" },
-   { title: "Safe Handling and Storage of E-Waste(ई-वेस्ट की सुरक्षित हैंडलिंग और स्टोरेज की प्रक्रिया)", file: "audio/safe-loading27.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading28.mp3", category: "Warehouse", transcript: "" },
+  // ===== Vehicle & Dispatch =====
+  { title: "Vehicle Reporting Procedure (वाहन रिपोर्टिंग की प्रक्रिया)", file: "audio/safe-loading6.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Safe Vehicle Placement at Dock (डॉक पर वाहन की सुरक्षित प्लेसमेंट)", file: "audio/safe-loading10.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Safe Loading of Heavy Material (भारी सामान की सुरक्षित लोडिंग की प्रक्रिया)", file: "audio/safe-loading18.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Safe Handling of Fragile Materials (Glass, Granite, Crockery) (नाज़ुक सामान (कांच, ग्रेनाइट, क्रॉकरी) की सुरक्षित हैंडलिंग)", file: "audio/safe-loading16.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Material Dispatch from Warehouse (वेयरहाउस से माल भेजने की प्रक्रिया)", file: "audio/safe-loading15.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  // CHECK: placed in Vehicle & Dispatch as a guess. Move if wrong
+  { title: "Cabinet Number Scanning for Appliances (अप्लायंसेस के कैबिनेट नंबर की स्कैनिंग की प्रक्रिया)", file: "audio/safe-loading31.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "E-Commerce Dispatch Procedure (ई-कॉमर्स ग्राहकों को माल भेजने की प्रक्रिया)", file: "audio/safe-loading25.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Safe Dispatch of Loaded Vehicles (लोडेड वाहन की सुरक्षित रवानगी की प्रक्रिया)", file: "audio/safe-loading20.mp3", category: "Vehicle & Dispatch", transcript: "" },
+  { title: "Safe Exit of Loaded Commercial Vehicles (लोडेड कमर्शियल वाहन की सुरक्षित निकासी की प्रक्रिया)", file: "audio/safe-loading34.mp3", category: "Vehicle & Dispatch", transcript: "" },
 
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading29.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading30.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading31.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading32.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading33.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading34.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading35.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading36.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading37.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading38.mp3", category: "Warehouse", transcript: "" }
+  // ===== Storage & Material Handling =====
+  { title: "Material Handling in Racks (रैक्स में मटेरियल हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading3.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Loading and Unloading at Second Floor Racks (सेकंड फ्लोर रैक पर लोडिंग और अनलोडिंग की सुरक्षित प्रक्रिया)", file: "audio/safe-loading23.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Two-to-Three Tier Stacking of Refrigerators (रेफ्रिजरेटर की 2 से 3 टियर स्टैकिंग की प्रक्रिया)", file: "audio/safe-loading13.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Operation of Stackers (स्टैकर के सुरक्षित संचालन की प्रक्रिया)", file: "audio/safe-loading11.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Use of Stacker at Height (ऊंचाई पर स्टैकर के सुरक्षित उपयोग की प्रक्रिया)", file: "audio/safe-loading12.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Handling of Tank Bars (टैंक बार्स की सुरक्षित हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading29.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Handling of Damaged Parts (क्षतिग्रस्त पुर्जों की सुरक्षित हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading14.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Packing of Spares Procedure (स्पेयर्स की पैकिंग की प्रक्रिया)", file: "audio/safe-loading8.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Use of Weighing Scale (वेइंग स्केल के सुरक्षित उपयोग की प्रक्रिया)", file: "audio/safe-loading7.mp3", category: "Storage & Material Handling", transcript: "" },
+  { title: "Safe Cutting of Steel Strapping and Seals (स्टील स्ट्रैप और सील काटने की सुरक्षित प्रक्रिया)", file: "audio/safe-loading4.mp3", category: "Storage & Material Handling", transcript: "" },
+  // CHECK: same title as safe-loading3. Listen and rename if it is a different SOP
+  { title: "Material Handling in Racks (रैक्स में मटेरियल हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading36.mp3", category: "Storage & Material Handling", transcript: "" },
+  // CHECK: same title as safe-loading23. Listen and rename if it is a different SOP
+  { title: "Safe Loading and Unloading at Second Floor Racks (सेकंड फ्लोर रैक पर लोडिंग और अनलोडिंग की सुरक्षित प्रक्रिया)", file: "audio/safe-loading37.mp3", category: "Storage & Material Handling", transcript: "" },
 
+  // ===== Equipment & Electrical =====
+  { title: "Operation and Maintenance of Forklifts (फोर्कलिफ्ट के संचालन और रखरखाव की प्रक्रिया)", file: "audio/safe-loading35.mp3", category: "Equipment & Electrical", transcript: "" },
+  // CHECK: the Hindi part looks like it is missing its first word (probably MHE)
+  { title: "Safe Charging of MHE (Material Handling Equipment) ((वेयरहाउस मशीनों) की सुरक्षित चार्जिंग की प्रक्रिया)", file: "audio/safe-loading21.mp3", category: "Equipment & Electrical", transcript: "" },
+  { title: "Safe Operation of Rolling Shutters (रोलिंग शटर के सुरक्षित संचालन की प्रक्रिया)", file: "audio/safe-loading22.mp3", category: "Equipment & Electrical", transcript: "" },
+  { title: "Cylinder Storage and Handling Procedure (सिलेंडर के भंडारण और हैंडलिंग की प्रक्रिया)", file: "audio/safe-loading17.mp3", category: "Equipment & Electrical", transcript: "" },
+  { title: "Preventive Maintenance Scheduling of Earth Pits (अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading28.mp3", category: "Equipment & Electrical", transcript: "" },
 
-  // add the rest of your 30+ files here
+  // ===== Housekeeping =====
+  { title: "Housekeeping Procedure (हाउसकीपिंग (साफ-सफाई) की प्रक्रिया)", file: "audio/safe-loading19.mp3", category: "Housekeeping", transcript: "" },
+  { title: "Housekeeping Procedure (Shed and Warehouse) (हाउसकीपिंग की प्रक्रिया (शेड और वेयरहाउस))", file: "audio/safe-loading33.mp3", category: "Housekeeping", transcript: "" },
+  { title: "Non-Inventory Waste Management (नॉन-इन्वेंटरी वेस्ट प्रबंधन की प्रक्रिया)", file: "audio/safe-loading9.mp3", category: "Housekeeping", transcript: "" },
+  { title: "Safe Handling and Storage of E-Waste (ई-वेस्ट की सुरक्षित हैंडलिंग और स्टोरेज की प्रक्रिया)", file: "audio/safe-loading27.mp3", category: "Housekeeping", transcript: "" },
+  { title: "Pest Control Procedure (पेस्ट कंट्रोल (कीट नियंत्रण) प्रक्रिया)", file: "audio/safe-loading2.mp3", category: "Housekeeping", transcript: "" },
+
+  // ===== Operational Safety =====
+  { title: "Non-Routine Activities Safety Training (नॉन-रूटीन गतिविधियों का सुरक्षा प्रशिक्षण)", file: "audio/safe-loading1.mp3", category: "Operational Safety", transcript: "" },
+  { title: "Warehouse Visitor Management (वेयरहाउस में विजिटर मैनेजमेंट की प्रक्रिया)", file: "audio/safe-loading32.mp3", category: "Operational Safety", transcript: "" },
+  { title: "Cash Stock Liquidation Procedure (कैश स्टॉक लिक्विडेशन की प्रक्रिया)", file: "audio/safe-loading24.mp3", category: "Operational Safety", transcript: "" },
+
+  // ===== Office Safety =====
+  { title: "Office and Workplace Safety Procedure (ऑफिस और कार्यस्थल सुरक्षा की प्रक्रिया)", file: "audio/safe-loading30.mp3", category: "Office Safety", transcript: "" }
+
+  // ===== Files in the audio folder with no title yet. Fill in a title, pick a tab, and remove the // =====
+  // ... add a comma after the Office Safety line above first, then:
+  // { title: "TITLE NEEDED", file: "audio/safe-loading5.mp3", category: "Housekeeping", transcript: "" },
+  // { title: "TITLE NEEDED", file: "audio/safe-loading26.mp3", category: "Housekeeping", transcript: "" },
+  // { title: "TITLE NEEDED", file: "audio/safe-loading38.mp3", category: "Housekeeping", transcript: "" },
 ];

@@ -1,5 +1,4 @@
-:root{--bg:#FFFFFF;--card:#F1F2ED;--ink:#2B1A25;--muted:#6B5A64;--line:#D6D7D0;--brand:#800055;--brand2:#C40161;--ok:#1E7B4F;--focus:#0B57D0}
-@media (prefers-color-scheme:dark){:root{--bg:#170E14;--card:#241720;--ink:#F3ECF0;--muted:#B7A5B0;--line:#40303A;--brand:#E27AB8;--brand2:#C40161;--ok:#4CC38A;--focus:#7AA7FF}}
+:root{color-scheme:light;--bg:#FFFFFF;--card:#F1F2ED;--ink:#2B1A25;--muted:#6B5A64;--line:#D6D7D0;--brand:#800055;--brand2:#C40161;--ok:#1E7B4F;--focus:#0B57D0}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:150px}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
