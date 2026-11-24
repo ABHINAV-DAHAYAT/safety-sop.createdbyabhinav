@@ -39,7 +39,19 @@ const SOPS = [
    { title: "Cash Stock Liquidation Procedure(कैश स्टॉक लिक्विडेशन की प्रक्रिया)", file: "audio/safe-loading24.mp3", category: "Warehouse", transcript: "" },
    { title: "E-Commerce Dispatch Procedure(ई-कॉमर्स ग्राहकों को माल भेजने की प्रक्रिया)", file: "audio/safe-loading25.mp3", category: "Warehouse", transcript: "" },
    { title: "Safe Handling and Storage of E-Waste(ई-वेस्ट की सुरक्षित हैंडलिंग और स्टोरेज की प्रक्रिया)", file: "audio/safe-loading27.mp3", category: "Warehouse", transcript: "" },
-   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading28.mp3", category: "Warehouse", transcript: "" }
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading28.mp3", category: "Warehouse", transcript: "" },
+
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading29.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading30.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading31.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading32.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading33.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading34.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading35.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading36.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading37.mp3", category: "Warehouse", transcript: "" },
+   { title: "Preventive Maintenance Scheduling of Earth Pits(अर्थ पिट के प्रिवेंटिव मेंटेनेंस की शेड्यूलिंग प्रक्रिया)", file: "audio/safe-loading38.mp3", category: "Warehouse", transcript: "" }
+
 
   // add the rest of your 30+ files here
 ];
