@@ -7,8 +7,8 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">"
 
 function header(){
   $("brand").textContent = SITE.company;
-  document.title = SITE.company + " | Operational Safety Broadcast";
-  $("foot").textContent = SITE.company + " safety procedures. This Page Created by Abhinav Dahayat(GT)";
+  document.title = SITE.company + " | Operational Safety Podcast";
+  $("foot").textContent = SITE.company + " safety procedures. Presented by Raipur Commercial Department ";
 }
 function buildChips(){
   const cats = ["All", ...new Set(SOPS.map(s => s.category))];
